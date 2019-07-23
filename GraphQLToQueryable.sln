@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29025.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{03A822A9-B400-4FC0-9B1D-B97309218D57}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphQLToQueryable", "GraphQLToQueryable\GraphQLToQueryable.csproj", "{AF8DA584-C484-4DE8-B14F-D102B483FD57}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphQLToQueryable.Tests", "GraphQLToQueryable.Tests\GraphQLToQueryable.Tests.csproj", "{999C6161-4AE8-476B-B142-F9436387ED48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQLToQueryable.EF", "GraphQLToQueryable.EF\GraphQLToQueryable.EF.csproj", "{4B60580E-9BBA-4927-8918-2D7EFBBC4900}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphQLToQueryable.TestData", "GraphQLToQueryable.TestData\GraphQLToQueryable.TestData.csproj", "{6756D095-A2A5-4066-A096-44648E2B7101}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphQLToQueryable.EfCore", "GraphQLToQueryable.EfCore\GraphQLToQueryable.EfCore.csproj", "{8C9B58FB-C6B9-47BE-9779-9CF1CEB25040}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Misc", "Misc", "{A02A9AC3-A643-45BD-94C2-35FE64BC479A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF8DA584-C484-4DE8-B14F-D102B483FD57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF8DA584-C484-4DE8-B14F-D102B483FD57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF8DA584-C484-4DE8-B14F-D102B483FD57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF8DA584-C484-4DE8-B14F-D102B483FD57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{999C6161-4AE8-476B-B142-F9436387ED48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{999C6161-4AE8-476B-B142-F9436387ED48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{999C6161-4AE8-476B-B142-F9436387ED48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{999C6161-4AE8-476B-B142-F9436387ED48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B60580E-9BBA-4927-8918-2D7EFBBC4900}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B60580E-9BBA-4927-8918-2D7EFBBC4900}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B60580E-9BBA-4927-8918-2D7EFBBC4900}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B60580E-9BBA-4927-8918-2D7EFBBC4900}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6756D095-A2A5-4066-A096-44648E2B7101}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6756D095-A2A5-4066-A096-44648E2B7101}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6756D095-A2A5-4066-A096-44648E2B7101}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6756D095-A2A5-4066-A096-44648E2B7101}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C9B58FB-C6B9-47BE-9779-9CF1CEB25040}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C9B58FB-C6B9-47BE-9779-9CF1CEB25040}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C9B58FB-C6B9-47BE-9779-9CF1CEB25040}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C9B58FB-C6B9-47BE-9779-9CF1CEB25040}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{999C6161-4AE8-476B-B142-F9436387ED48} = {03A822A9-B400-4FC0-9B1D-B97309218D57}
+		{4B60580E-9BBA-4927-8918-2D7EFBBC4900} = {A02A9AC3-A643-45BD-94C2-35FE64BC479A}
+		{6756D095-A2A5-4066-A096-44648E2B7101} = {A02A9AC3-A643-45BD-94C2-35FE64BC479A}
+		{8C9B58FB-C6B9-47BE-9779-9CF1CEB25040} = {A02A9AC3-A643-45BD-94C2-35FE64BC479A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {063103CD-17EE-4E8B-AF96-B38170B39CA7}
+	EndGlobalSection
+EndGlobal
