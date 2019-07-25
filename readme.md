@@ -66,3 +66,7 @@ Resolve.SingleObject<Entity, Dto>(query, context)
 
 - The type that you map to must have only one constructor with no parameters.
 - The fields that you map from and to must have the same names (and types). These are also the names that can be used in queries.
+
+## Credits
+
+This project builds on examples from [LatticeUtils](https://github.com/dotlattice/LatticeUtils)
